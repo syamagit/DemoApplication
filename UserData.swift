@@ -12,7 +12,6 @@ struct UserData : Codable {
     var name : String
     var agency: String
     var image: String
-    var random: Int
     var wikipedia: String
     var launches: String
     var status: String
