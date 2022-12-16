@@ -19,8 +19,15 @@ class APIService : NSObject {
                 jsonDecoder.dateDecodingStrategy = .iso8601
                 
                 let userData = try! jsonDecoder.decode([UserData].self, from: data)
+                print(userData)
                 
                 completion(userData)
+            }
+            if let url = urlResponse{
+                print(url)
+            }
+            if let error = error{
+                print(error)
             }
                 
         }.resume()

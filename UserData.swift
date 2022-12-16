@@ -13,7 +13,7 @@ struct UserData : Codable {
     var agency: String
     var image: String
     var wikipedia: String
-    var launches: String
+    var launches: [String]
     var status: String
     var id: String
 }
