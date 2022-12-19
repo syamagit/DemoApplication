@@ -15,24 +15,29 @@
                 <rect key="frame" x="0.0" y="0.0" width="391" height="143"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eH4-rU-oPY">
-                        <rect key="frame" x="20" y="20" width="42" height="21"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H9-Gz-KQk">
-                        <rect key="frame" x="20" y="101" width="42" height="20.333333333333329"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="anx-rA-PCN">
+                        <rect key="frame" x="0.0" y="0.0" width="391" height="143"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eH4-rU-oPY">
+                                <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="71.666666666666671"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H9-Gz-KQk">
+                                <rect key="frame" x="0.0" y="71.666666666666686" width="41.333333333333336" height="71.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="7H9-Gz-KQk" firstAttribute="top" secondItem="eH4-rU-oPY" secondAttribute="bottom" constant="60" id="VHt-Id-UVp"/>
-                    <constraint firstItem="7H9-Gz-KQk" firstAttribute="leading" secondItem="EVU-dS-dH4" secondAttribute="leading" constant="20" id="nHU-gM-hK9"/>
-                    <constraint firstItem="eH4-rU-oPY" firstAttribute="leading" secondItem="EVU-dS-dH4" secondAttribute="leading" constant="20" id="xUM-x7-T08"/>
-                    <constraint firstItem="eH4-rU-oPY" firstAttribute="top" secondItem="EVU-dS-dH4" secondAttribute="top" constant="20" id="xd5-lA-DF0"/>
+                    <constraint firstItem="anx-rA-PCN" firstAttribute="leading" secondItem="EVU-dS-dH4" secondAttribute="leading" id="Udv-es-dHZ"/>
+                    <constraint firstItem="anx-rA-PCN" firstAttribute="top" secondItem="EVU-dS-dH4" secondAttribute="top" id="h51-O0-7NV"/>
+                    <constraint firstAttribute="trailing" secondItem="anx-rA-PCN" secondAttribute="trailing" id="tZI-fW-5FT"/>
+                    <constraint firstAttribute="bottom" secondItem="anx-rA-PCN" secondAttribute="bottom" id="wlp-F0-K6N"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
