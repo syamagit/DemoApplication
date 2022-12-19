@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3E4F4D64294B11800017BB02 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4F4D63294B11800017BB02 /* UserData.swift */; };
+		3E54663A29502F9C00DBFC94 /* UserDataViewDemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E54663929502F9C00DBFC94 /* UserDataViewDemoCell.xib */; };
+		3E5466442950447500DBFC94 /* UserDataViewDemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5466432950447500DBFC94 /* UserDataViewDemoCell.swift */; };
 		3E840C93294B9ACD00EAFD9C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E840C92294B9ACD00EAFD9C /* APIService.swift */; };
 		3E93F569294AF908009D8358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93F568294AF908009D8358 /* AppDelegate.swift */; };
 		3E93F56B294AF908009D8358 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93F56A294AF908009D8358 /* SceneDelegate.swift */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		3E4F4D63294B11800017BB02 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		3E54663929502F9C00DBFC94 /* UserDataViewDemoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDataViewDemoCell.xib; sourceTree = "<group>"; };
+		3E5466432950447500DBFC94 /* UserDataViewDemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewDemoCell.swift; sourceTree = "<group>"; };
 		3E840C92294B9ACD00EAFD9C /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		3E93F565294AF908009D8358 /* MockProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E93F568294AF908009D8358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +154,8 @@
 				3E93F571294AF909009D8358 /* Assets.xcassets */,
 				3E93F573294AF909009D8358 /* LaunchScreen.storyboard */,
 				3E93F576294AF909009D8358 /* Info.plist */,
+				3E54663929502F9C00DBFC94 /* UserDataViewDemoCell.xib */,
+				3E5466432950447500DBFC94 /* UserDataViewDemoCell.swift */,
 			);
 			path = MockProject;
 			sourceTree = "<group>";
@@ -277,6 +283,7 @@
 			files = (
 				3E93F575294AF909009D8358 /* LaunchScreen.storyboard in Resources */,
 				3E93F572294AF909009D8358 /* Assets.xcassets in Resources */,
+				3E54663A29502F9C00DBFC94 /* UserDataViewDemoCell.xib in Resources */,
 				3E93F570294AF908009D8358 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +315,7 @@
 				3E93F569294AF908009D8358 /* AppDelegate.swift in Sources */,
 				AA4C8864294C3FD000F07BCA /* UserDataListController.swift in Sources */,
 				3E4F4D64294B11800017BB02 /* UserData.swift in Sources */,
+				3E5466442950447500DBFC94 /* UserDataViewDemoCell.swift in Sources */,
 				3E93F56B294AF908009D8358 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
