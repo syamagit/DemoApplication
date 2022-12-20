@@ -9,16 +9,23 @@ import UIKit
 
 class UserDataViewDemoCell: UITableViewCell {
 
+     var imageURL : String?
     
     @IBOutlet weak var name: UILabel!
     
+    @IBOutlet weak var imageview: UIImageView!
     
     @IBOutlet weak var agency: UILabel!
     
     func configureWith(userdata: UserData) {
        
+        self.imageURL = userdata.image
         self.name.text = userdata.name
         self.agency.text = userdata.agency
+        if let url = self.imageURL {
+            self.imageview.loadImageFromUrl(urlString: url  as NSString)
+        }
+        
     }
 
     

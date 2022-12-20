@@ -16,4 +16,5 @@ struct UserData : Codable {
     var launches: [String]
     var status: String
     var id: String
+    
 }
