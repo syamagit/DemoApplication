@@ -55,5 +55,7 @@ class UserDataListController: UIViewController,UITableViewDataSource,UITableView
     func numberOfSections(in tableView: UITableView) -> Int {
         self.viewModel?.numberOfSections() ?? 1
     }
-    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
+    }
 }
