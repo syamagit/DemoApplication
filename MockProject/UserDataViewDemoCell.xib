@@ -9,47 +9,56 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="143" id="e2Q-Wc-tFM" customClass="UserDataViewDemoCell" customModule="MockProject" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="391" height="143"/>
+            <rect key="frame" x="0.0" y="0.0" width="497" height="143"/>
             <autoresizingMask key="autoresizingMask"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="e2Q-Wc-tFM" id="EVU-dS-dH4" customClass="UserDataViewDemoCell" customModule="MockProject" customModuleProvider="target">
-                <rect key="frame" x="0.0" y="0.0" width="391" height="143"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="e2Q-Wc-tFM" id="EVU-dS-dH4" customClass="UserDataViewDemoCell" customModule="MockProject" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="497" height="143"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GWV-4C-NnM">
-                        <rect key="frame" x="10" y="10" width="100" height="100"/>
+                        <rect key="frame" x="20" y="0.0" width="120" height="100"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="100" id="0r0-QL-jNQ"/>
-                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="6b0-PJ-ppy"/>
-                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="IEP-1B-xaL"/>
+                            <constraint firstAttribute="width" constant="120" id="0r0-QL-jNQ"/>
                             <constraint firstAttribute="height" constant="100" id="hiM-R8-B6H"/>
                         </constraints>
                     </imageView>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="anx-rA-PCN">
-                        <rect key="frame" x="120" y="0.0" width="271" height="60.666666666666664"/>
+                        <rect key="frame" x="190" y="10" width="300" height="100"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eH4-rU-oPY">
-                                <rect key="frame" x="0.0" y="0.0" width="271" height="20.333333333333332"/>
+                                <rect key="frame" x="140" y="10" width="150" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="5Ho-Of-a1X"/>
+                                    <constraint firstAttribute="height" constant="40" id="eZZ-za-4oV"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H9-Gz-KQk">
-                                <rect key="frame" x="0.0" y="40.333333333333336" width="271" height="20.333333333333336"/>
+                                <rect key="frame" x="140" y="70" width="150" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="8LV-uS-oeE"/>
+                            <constraint firstItem="eH4-rU-oPY" firstAttribute="leading" secondItem="anx-rA-PCN" secondAttribute="leading" constant="140" id="QAC-G1-jxv"/>
+                            <constraint firstAttribute="width" constant="300" id="b6b-22-wam"/>
+                            <constraint firstItem="eH4-rU-oPY" firstAttribute="top" secondItem="anx-rA-PCN" secondAttribute="top" constant="10" id="f5j-lR-Hgr"/>
+                            <constraint firstItem="eH4-rU-oPY" firstAttribute="top" secondItem="anx-rA-PCN" secondAttribute="top" constant="10" id="lEE-Rf-aYl"/>
+                        </constraints>
                     </stackView>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="GWV-4C-NnM" secondAttribute="bottom" constant="10" id="IPT-Hs-l6h"/>
-                    <constraint firstItem="anx-rA-PCN" firstAttribute="top" secondItem="EVU-dS-dH4" secondAttribute="top" id="h51-O0-7NV"/>
-                    <constraint firstAttribute="bottom" secondItem="anx-rA-PCN" secondAttribute="bottom" constant="10" id="lOz-2R-QQ5"/>
-                    <constraint firstItem="GWV-4C-NnM" firstAttribute="top" secondItem="EVU-dS-dH4" secondAttribute="top" constant="10" id="ohl-e1-BMD"/>
-                    <constraint firstItem="GWV-4C-NnM" firstAttribute="leading" secondItem="EVU-dS-dH4" secondAttribute="leading" constant="10" id="pQA-RA-q04"/>
-                    <constraint firstAttribute="trailing" secondItem="anx-rA-PCN" secondAttribute="trailing" id="tZI-fW-5FT"/>
-                    <constraint firstItem="anx-rA-PCN" firstAttribute="leading" secondItem="GWV-4C-NnM" secondAttribute="trailing" constant="10" id="wEy-bQ-nax"/>
+                    <constraint firstAttribute="bottom" secondItem="anx-rA-PCN" secondAttribute="bottom" constant="10" id="8hC-Na-7h8"/>
+                    <constraint firstAttribute="bottom" secondItem="GWV-4C-NnM" secondAttribute="bottom" id="IPT-Hs-l6h"/>
+                    <constraint firstItem="GWV-4C-NnM" firstAttribute="top" secondItem="EVU-dS-dH4" secondAttribute="top" id="ohl-e1-BMD"/>
+                    <constraint firstItem="anx-rA-PCN" firstAttribute="leading" secondItem="GWV-4C-NnM" secondAttribute="trailing" constant="50" id="pCA-Uy-kWg"/>
+                    <constraint firstItem="anx-rA-PCN" firstAttribute="top" secondItem="EVU-dS-dH4" secondAttribute="top" constant="10" id="t6X-fT-KF8"/>
+                    <constraint firstItem="GWV-4C-NnM" firstAttribute="leading" secondItem="EVU-dS-dH4" secondAttribute="leading" constant="20" id="tfg-9i-NKg"/>
+                    <constraint firstAttribute="trailing" secondItem="anx-rA-PCN" secondAttribute="trailing" id="zLd-N8-w7M"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
@@ -57,7 +66,7 @@
                 <outlet property="imageview" destination="GWV-4C-NnM" id="Ypb-In-HBX"/>
                 <outlet property="name" destination="eH4-rU-oPY" id="dQV-fx-Izt"/>
             </connections>
-            <point key="canvasLocation" x="154.96183206106869" y="-0.35211267605633806"/>
+            <point key="canvasLocation" x="235.87786259541983" y="-0.35211267605633806"/>
         </tableViewCell>
     </objects>
 </document>
