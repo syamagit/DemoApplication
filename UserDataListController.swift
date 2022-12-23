@@ -56,7 +56,7 @@ class UserDataListController: UIViewController,UITableViewDataSource,UITableView
         self.viewModel?.numberOfSections() ?? 1
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 120
+        return 100
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //transistion
