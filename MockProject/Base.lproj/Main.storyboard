@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="g7f-lT-ZTx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="s5E-Kt-xqc">
-                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UserViewCell" id="hsg-xQ-dVz" customClass="UserDataViewDemoCell" customModule="MockProject" customModuleProvider="target">
@@ -43,7 +43,6 @@
                     <navigationItem key="navigationItem" id="RL9-LM-AfE"/>
                     <connections>
                         <outlet property="tableView" destination="s5E-Kt-xqc" id="3h6-hs-KYp"/>
-                        <segue destination="nQ9-JO-mVx" kind="show" identifier="Sneeker" id="CcU-yD-vZK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -59,7 +58,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k44-fh-o5s">
-                                <rect key="frame" x="10" y="103" width="373" height="200"/>
+                                <rect key="frame" x="10" y="59" width="373" height="200"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red shoe" translatesAutoresizingMaskIntoConstraints="NO" id="dT2-P2-9Se">
                                         <rect key="frame" x="0.0" y="0.0" width="373" height="200"/>
@@ -70,7 +69,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2zL-kI-rJh">
-                                <rect key="frame" x="10" y="313" width="373" height="150"/>
+                                <rect key="frame" x="10" y="269" width="373" height="150"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="women" translatesAutoresizingMaskIntoConstraints="NO" id="PpY-zg-Eh9">
                                         <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="150"/>
@@ -91,7 +90,7 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sneeker" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xlF-mn-lvF">
-                                <rect key="frame" x="15" y="478" width="368" height="25"/>
+                                <rect key="frame" x="15" y="434" width="368" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="9u1-ge-yth"/>
                                 </constraints>
@@ -100,7 +99,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="afp-3u-r8u">
-                                <rect key="frame" x="10" y="533" width="373" height="52"/>
+                                <rect key="frame" x="10" y="489" width="373" height="52"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="RYk-x7-jUz"/>
@@ -110,7 +109,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bPj-rl-p2W">
-                                <rect key="frame" x="10" y="600" width="373" height="120"/>
+                                <rect key="frame" x="10" y="556" width="373" height="120"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clothes" translatesAutoresizingMaskIntoConstraints="NO" id="33I-ol-NmP">
                                         <rect key="frame" x="0.0" y="0.0" width="181.66666666666666" height="120"/>
@@ -126,16 +125,16 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6Lt-Kh-i4R">
-                                <rect key="frame" x="10" y="750" width="373" height="52"/>
+                                <rect key="frame" x="10" y="706" width="373" height="96"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dlv-2o-ZTJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="373" height="21"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="43"/>
                                         <color key="backgroundColor" red="0.91933476920000001" green="0.40993416310000003" blue="0.27446043489999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Add to Wishlist"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uI-Ih-KCt">
-                                        <rect key="frame" x="0.0" y="31" width="373" height="21"/>
+                                        <rect key="frame" x="0.0" y="53" width="373" height="43"/>
                                         <color key="backgroundColor" red="0.77077597379999996" green="0.91910117859999996" blue="0.28999230269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Add to Cart"/>
@@ -146,7 +145,7 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price 12$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcf-ps-3c9">
-                                <rect key="frame" x="15" y="513" width="368" height="20"/>
+                                <rect key="frame" x="15" y="469" width="368" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="r7e-Qi-MGn"/>
                                 </constraints>
@@ -261,24 +260,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QLE-H8-r83" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2394.6564885496182" y="3.5211267605633805"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="SP1-XY-IYz">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g7f-lT-ZTx" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jvg-R0-xlF">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="8d2-6e-JXB"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xup-rz-IAg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>

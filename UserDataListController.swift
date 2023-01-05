@@ -59,8 +59,7 @@ class UserDataListController: UIViewController,UITableViewDataSource,UITableView
         return 100
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //transistion
-        performSegue(withIdentifier: "Sneeker", sender: self)
+       
        
     }
 }
