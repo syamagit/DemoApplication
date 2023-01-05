@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="g7f-lT-ZTx">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vee-vs-VVL">
+>>>>>>> 089d7db (created the swfitUI Profile page)
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -8,7 +12,26 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--User Data List Controller-->
+        <!--Tab Bar Controller-->
+        <scene sceneID="0Io-HH-yrD">
+            <objects>
+                <tabBarController id="vee-vs-VVL" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6ML-4g-JDI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <tabBarAppearance key="standardAppearance"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gnr-nn-Io4" kind="relationship" relationship="viewControllers" id="aWw-Xc-Mb2"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Ynj-NG-MtX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6gy-a6-9pU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-821" y="4"/>
+        </scene>
+        <!--List-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="userList" id="BYZ-38-t0r" customClass="UserDataListController" customModule="MockProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,7 +40,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="s5E-Kt-xqc">
+<<<<<<< HEAD
                                 <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+=======
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+>>>>>>> 089d7db (created the swfitUI Profile page)
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UserViewCell" id="hsg-xQ-dVz" customClass="UserDataViewDemoCell" customModule="MockProject" customModuleProvider="target">
@@ -40,7 +67,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s5E-Kt-xqc" secondAttribute="trailing" id="Rfd-B2-v7b"/>
                         </constraints>
                     </view>
+<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="RL9-LM-AfE"/>
+=======
+                    <tabBarItem key="tabBarItem" title="List" image="list.bullet.clipboard" catalog="system" id="7Jv-Yd-6zl"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+>>>>>>> 089d7db (created the swfitUI Profile page)
                     <connections>
                         <outlet property="tableView" destination="s5E-Kt-xqc" id="3h6-hs-KYp"/>
                         <segue destination="nQ9-JO-mVx" kind="show" identifier="Sneeker" id="CcU-yD-vZK"/>
@@ -48,7 +80,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="1028.2442748091603" y="3.5211267605633805"/>
+=======
+            <point key="canvasLocation" x="227" y="4"/>
+>>>>>>> 089d7db (created the swfitUI Profile page)
         </scene>
         <!--Sneeker View Controller-->
         <scene sceneID="CLs-49-v3U">
@@ -186,9 +222,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TM9-9u-1D9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="1724" y="4"/>
+=======
+            <point key="canvasLocation" x="1216" y="8"/>
+>>>>>>> 089d7db (created the swfitUI Profile page)
         </scene>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="0t6-L4-2CT">
             <objects>
                 <viewController id="gnr-nn-Io4" sceneMemberID="viewController">
@@ -257,9 +297,12 @@
                             <constraint firstItem="f1t-RY-iOH" firstAttribute="top" secondItem="Gv9-M5-o9X" secondAttribute="bottom" constant="40" id="yEe-zS-gpm"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="drO-fo-p7A"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QLE-H8-r83" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="2394.6564885496182" y="3.5211267605633805"/>
         </scene>
         <!--Navigation Controller-->
@@ -279,12 +322,17 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xup-rz-IAg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+=======
+            <point key="canvasLocation" x="-60" y="661"/>
+>>>>>>> 089d7db (created the swfitUI Profile page)
         </scene>
     </scenes>
     <resources>
         <image name="cloth and Shoe" width="509" height="339"/>
         <image name="clothes" width="6000" height="4000"/>
         <image name="clothess" width="612" height="408"/>
+        <image name="homekit" catalog="system" width="128" height="104"/>
+        <image name="list.bullet.clipboard" catalog="system" width="103" height="128"/>
         <image name="person" width="4000" height="5000"/>
         <image name="red shoe" width="5472" height="3648"/>
         <image name="shoe1" width="3139" height="4709"/>
@@ -299,6 +347,9 @@
         </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
