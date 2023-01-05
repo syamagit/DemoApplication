@@ -21,7 +21,6 @@ struct Profile: View {
                 .font(.largeTitle)
                  Text("DFO Community")
                 .font(.title2)
-                
                 Text("Junior IOS developer")
                 .font(.title2)
                  Text("kasharvani@deloitte.com")

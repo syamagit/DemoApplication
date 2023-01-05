@@ -21,6 +21,7 @@
 		3E93F58A294AF90A009D8358 /* MockProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93F589294AF90A009D8358 /* MockProjectUITests.swift */; };
 		3E93F58C294AF90A009D8358 /* MockProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93F58B294AF90A009D8358 /* MockProjectUITestsLaunchTests.swift */; };
 		AA0733762966F73000E24E2F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0733752966F73000E24E2F /* Profile.swift */; };
+		AA0733782966FD8E00E24E2F /* HostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0733772966FD8E00E24E2F /* HostVC.swift */; };
 		AA4C8862294C3D9000F07BCA /* UserDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C8861294C3D9000F07BCA /* UserDataViewModel.swift */; };
 		AA4C8864294C3FD000F07BCA /* UserDataListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C8863294C3FD000F07BCA /* UserDataListController.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		3E93F589294AF90A009D8358 /* MockProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProjectUITests.swift; sourceTree = "<group>"; };
 		3E93F58B294AF90A009D8358 /* MockProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AA0733752966F73000E24E2F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		AA0733772966FD8E00E24E2F /* HostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostVC.swift; sourceTree = "<group>"; };
 		AA4C8861294C3D9000F07BCA /* UserDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewModel.swift; sourceTree = "<group>"; };
 		AA4C8863294C3FD000F07BCA /* UserDataListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,6 +161,7 @@
 				3E5466432950447500DBFC94 /* UserDataViewDemoCell.swift */,
 				3E576DDE2951D32100650ADF /* Helper.swift */,
 				AA0733752966F73000E24E2F /* Profile.swift */,
+				AA0733772966FD8E00E24E2F /* HostVC.swift */,
 			);
 			path = MockProject;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0733782966FD8E00E24E2F /* HostVC.swift in Sources */,
 				AA4C8862294C3D9000F07BCA /* UserDataViewModel.swift in Sources */,
 				3E840C93294B9ACD00EAFD9C /* APIService.swift in Sources */,
 				3E93F569294AF908009D8358 /* AppDelegate.swift in Sources */,
