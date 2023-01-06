@@ -154,15 +154,15 @@
                                         <color key="backgroundColor" red="0.91933476920000001" green="0.40993416310000003" blue="0.27446043489999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Add to Wishlist"/>
+                                        <connections>
+                                            <action selector="moveToThird:" destination="nQ9-JO-mVx" eventType="touchUpInside" id="n8z-24-MPr"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uI-Ih-KCt">
                                         <rect key="frame" x="0.0" y="31" width="373" height="21"/>
                                         <color key="backgroundColor" red="0.77077597379999996" green="0.91910117859999996" blue="0.28999230269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Add to Cart"/>
-                                        <connections>
-                                            <action selector="onClick:" destination="nQ9-JO-mVx" eventType="touchUpInside" id="dp6-hP-TQs"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -207,15 +207,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4fH-pM-iLj">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="RVt-Eg-8d5" propertyAccessControl="all">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="IxQ-Od-g98">
-                                <rect key="frame" x="302" y="4.6666666666666679" width="75" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Back"/>
-                            </button>
+                        <barButtonItem key="leftBarButtonItem" title="Back" style="plain" id="GTn-Ae-4CH">
                             <connections>
-                                <action selector="dismiss:" destination="nQ9-JO-mVx" id="BeM-sc-dLc"/>
+                                <action selector="click:" destination="nQ9-JO-mVx" id="y8e-XX-HmZ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -223,6 +217,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TM9-9u-1D9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3075.5725190839694" y="-193.66197183098592"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="L1f-l6-dqj">
+            <objects>
+                <viewController id="Qia-kf-MnD" customClass="ThirdViewController" customModule="MockProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n9U-iz-0AH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="l8i-46-beL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wnf-I0-FEb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3884" y="-201"/>
         </scene>
         <!--Profile-->
         <scene sceneID="aBx-GT-0WL">

@@ -60,6 +60,7 @@ class UserDataListController: UIViewController,UITableViewDataSource,UITableView
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.performSegue(withIdentifier: "goTO", sender: self)
+        
        
     }
 }

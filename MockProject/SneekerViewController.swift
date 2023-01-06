@@ -16,14 +16,20 @@ class SneekerViewController: UIViewController {
     }
     
     
-    
-    @IBAction func onClick(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+    @IBAction func click(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
     }
+    
+
     
     @IBAction func dismissButton(_ sender: UIBarButtonItem) {
         self.dismiss(animated: true, completion: nil)
     }
     
-   
+    @IBAction func moveToThird(_ sender: Any) {
+        let vc = ThirdViewController()
+        vc.view.backgroundColor = .systemRed
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }

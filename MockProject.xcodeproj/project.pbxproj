@@ -22,6 +22,7 @@
 		3E93F58C294AF90A009D8358 /* MockProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93F58B294AF90A009D8358 /* MockProjectUITestsLaunchTests.swift */; };
 		AA0733762966F73000E24E2F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0733752966F73000E24E2F /* Profile.swift */; };
 		AA0733782966FD8E00E24E2F /* HostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0733772966FD8E00E24E2F /* HostVC.swift */; };
+		AA44A6382968301400ABDB69 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA44A6372968301400ABDB69 /* ThirdViewController.swift */; };
 		AA4C8862294C3D9000F07BCA /* UserDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C8861294C3D9000F07BCA /* UserDataViewModel.swift */; };
 		AA4C8864294C3FD000F07BCA /* UserDataListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C8863294C3FD000F07BCA /* UserDataListController.swift */; };
 		AAD4D0AE2968102600282A57 /* SneekerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD4D0AD2968102600282A57 /* SneekerViewController.swift */; };
@@ -64,6 +65,7 @@
 		3E93F58B294AF90A009D8358 /* MockProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AA0733752966F73000E24E2F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		AA0733772966FD8E00E24E2F /* HostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostVC.swift; sourceTree = "<group>"; };
+		AA44A6372968301400ABDB69 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		AA4C8861294C3D9000F07BCA /* UserDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewModel.swift; sourceTree = "<group>"; };
 		AA4C8863294C3FD000F07BCA /* UserDataListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataListController.swift; sourceTree = "<group>"; };
 		AAD4D0AD2968102600282A57 /* SneekerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneekerViewController.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				AA0733752966F73000E24E2F /* Profile.swift */,
 				AA0733772966FD8E00E24E2F /* HostVC.swift */,
 				AAD4D0AD2968102600282A57 /* SneekerViewController.swift */,
+				AA44A6372968301400ABDB69 /* ThirdViewController.swift */,
 			);
 			path = MockProject;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				3E4F4D64294B11800017BB02 /* UserData.swift in Sources */,
 				3E5466442950447500DBFC94 /* UserDataViewDemoCell.swift in Sources */,
 				AA0733762966F73000E24E2F /* Profile.swift in Sources */,
+				AA44A6382968301400ABDB69 /* ThirdViewController.swift in Sources */,
 				3E93F56B294AF908009D8358 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
