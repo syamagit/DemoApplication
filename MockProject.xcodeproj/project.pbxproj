@@ -24,6 +24,7 @@
 		AA0733782966FD8E00E24E2F /* HostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0733772966FD8E00E24E2F /* HostVC.swift */; };
 		AA4C8862294C3D9000F07BCA /* UserDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C8861294C3D9000F07BCA /* UserDataViewModel.swift */; };
 		AA4C8864294C3FD000F07BCA /* UserDataListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C8863294C3FD000F07BCA /* UserDataListController.swift */; };
+		AAD4D0AE2968102600282A57 /* SneekerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD4D0AD2968102600282A57 /* SneekerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		AA0733772966FD8E00E24E2F /* HostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostVC.swift; sourceTree = "<group>"; };
 		AA4C8861294C3D9000F07BCA /* UserDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewModel.swift; sourceTree = "<group>"; };
 		AA4C8863294C3FD000F07BCA /* UserDataListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataListController.swift; sourceTree = "<group>"; };
+		AAD4D0AD2968102600282A57 /* SneekerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneekerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				3E576DDE2951D32100650ADF /* Helper.swift */,
 				AA0733752966F73000E24E2F /* Profile.swift */,
 				AA0733772966FD8E00E24E2F /* HostVC.swift */,
+				AAD4D0AD2968102600282A57 /* SneekerViewController.swift */,
 			);
 			path = MockProject;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				AA0733782966FD8E00E24E2F /* HostVC.swift in Sources */,
 				AA4C8862294C3D9000F07BCA /* UserDataViewModel.swift in Sources */,
 				3E840C93294B9ACD00EAFD9C /* APIService.swift in Sources */,
+				AAD4D0AE2968102600282A57 /* SneekerViewController.swift in Sources */,
 				3E93F569294AF908009D8358 /* AppDelegate.swift in Sources */,
 				AA4C8864294C3FD000F07BCA /* UserDataListController.swift in Sources */,
 				3E576DDF2951D32100650ADF /* Helper.swift in Sources */,
